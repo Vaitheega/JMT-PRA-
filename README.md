@@ -62,6 +62,15 @@ Illumina short-read sequencing data from 108 dogs of various breeds, including:
 | 17 January | Report completion and short oral presentation |
 
 
+## Computing environment
+
+All analyses are run on the Kebnekaise HPC cluster (HPC2N, Umeå University)
+as batch jobs submitted with SLURM. Software is loaded with the module system;
+tool versions used are listed in `docs/software_versions.md`.
+
+Large files (FASTQ, BAM, VCF) are stored on the cluster and are not included
+in this repository.
+
 ## Status
  
 In progress.
